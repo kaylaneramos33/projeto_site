@@ -1,0 +1,28 @@
+*{
+padding: 0;
+margin: 0;
+background-color: #1a1a1a;/*mudar a cor do fundo*/
+}
+
+
+li a{
+    text-decoration: none;/*remove sublinhado */
+    font-size: 20px;/*tamanho da fonte*/
+    color: #ffffff;/*cor da fonte*/
+}
+
+
+li{
+    list-style: none; /*retira formatação de lista*/
+}
+
+#logo{
+    height: 100px;/*altura*/
+    width: 160px;/*largura*/
+}
+
+ul{
+    display: flex;/*indica a propriedade*/
+    flex-direction: row;/*coloca os elementos na vertical ou horizontal*/
+    padding: 30px;
+}
