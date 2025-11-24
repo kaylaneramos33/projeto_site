@@ -105,10 +105,12 @@ padding: 35px; /*Espaçamento interno*/
     justify-content: center;
 }
 
-.Produtos{
+.produtos{
     height: 350px;
     width: 190px;
+
 }
+
 .valor{
     font-weight: bold;
     font-size: 20px;
@@ -118,7 +120,8 @@ padding: 35px; /*Espaçamento interno*/
 .cores{
     height: 15px;
     width: 15px;
-    border-radius: 100px;
+    border-radius: 100%;
+    
 }
 
 .vermelho{
@@ -143,32 +146,35 @@ padding: 35px; /*Espaçamento interno*/
     justify-content: center;
     width: 100px;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
 }
-
+.texto-card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+}
 .carousel{
-display: flex;
-flex-direction: row;
-justify-content: center;
-gap: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
 }
 
-.banner_dois{
+.banner_xbox{
     background-image:url("./assets/banner_dois.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
-    width: 800px;
+    height: 300px;
+    width: 600px;
     border-radius: 15px;
 }
-
-.texto-banner_dois{
-  font-size: 20px;
- width: 230px;
+.texto-banner_xbox{
+    font-size: 25px;
+    color: #ffffff;
 }
-
-.btn-menu_dois{
-width: 140px;
+.btn-menu-banner_xbox{
+width: 145px;
 height: 40px;
 border-radius: 30px;
 background-color: #333333;
@@ -176,17 +182,19 @@ color: #ffffff;
 font-weight: bold;
 border: none;
 font-size: 19px;
-margin: 25px;
+margin: 0px;
 }
 
-.caixa-texto-banner_dois{
-width: 250px;
-padding: 40px; /*Espaçamento interno*/
+.caixa-texto-banner_xbox{
+width: 220px;
+padding: 35px; /*Espaçamento interno*/
 color: #ffffff;
 float: right;
+font-size: 20px;
+align-items: end
 }
 
-.section-center_dois{
+.section-center-banner_xbox{
     display: flex;
     justify-content: center;
 }
